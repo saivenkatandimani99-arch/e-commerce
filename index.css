@@ -1,0 +1,339 @@
+* {
+    font-family: sans-serif;
+}
+.navbar {
+    background-color: skyblue;
+    
+    border-bottom: 10px solid #ddd;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #000 !important;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #2b5cff !important;
+    text-decoration: none;
+}
+
+/* Search Box */
+.search-box {
+    position: relative;
+    width: 400px;
+}
+
+.search-icon {
+    position:static;
+    transform: translateY(-50%);
+    color: gray;
+    padding-left: 48%;
+}
+
+.search-box input {
+    width: 220px;
+}
+
+
+
+
+
+/* MEN section full width */
+#MEN {
+    width: 100%;
+    overflow-x: hidden;
+    /* font-weight: bolder; */
+}
+
+/* Remove Bootstrap container width restriction */
+#MEN .container {
+    max-width: 100% !important;
+}
+
+/* Make column full width */
+#MEN .col-12,
+#MEN .col-sm-12,
+#MEN .col-md-12,
+#MEN .col-lg-6,
+#MEN .col-xl-6 {
+    padding-left: 20%;
+}
+
+/* Carousel full width */
+#carouselExampleFade {
+    width: 60vw;
+}
+
+/* Carousel images full screen */
+#carouselExampleFade img {
+    width: 90vw;
+    height: 90vh;        /* Full screen height */
+     object-fit:cover;    /*Prevent image stretching */
+     border-radius: 12px;
+} 
+
+
+
+/* Heading */
+h2 {
+    text-align: start;
+    margin: 20px 0;
+    padding-left: 3%;
+}
+
+/* Grid */
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+    width: 220px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* Price */
+.card p {
+    font-weight:80;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 8px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button turns green when clicked */
+.btn:active,
+.btn:focus {
+    background: green;
+    outline: none;
+}
+
+/* Wishlist heart */
+.heart-wrapper {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.heart-checkbox {
+    display: none;
+}
+
+/* Simple heart icon */
+.heart-icon::before {
+    content: "♡";
+    font-size: 20px;
+}
+
+.heart-checkbox:checked + .heart-icon::before {
+    content: "❤";
+    color: red;
+}
+
+
+
+
+/* WOMEN SESSION */
+#WOMEN {
+    margin-bottom: 30px;
+    padding:30px 0;
+}
+
+/* Section heading */
+#WOMEN h1 {
+    font-weight: bold;
+}
+
+/* Make carousel centered */
+#WOMEN .container {
+    display: flex;
+    justify-content: center;
+    padding-right:30%;
+}
+
+/* Carousel image */
+#WOMEN .carousel img {
+    height: 350px;      /* adjust if needed */
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* KIDS Section */
+#KIDS {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+/* Heading */
+#KIDS h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Carousel Container */
+#KIDS .carousel {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel Images */
+#KIDS .carousel img {
+    height: 350px;
+    object-fit: cover;
+    
+}
+#KIDS .container {
+    display: flex;
+    justify-content: center;
+    padding-right:1px;
+}
+
+
+
+
+
+/* HOME-KITCHEN Section */
+#HOME-KITCHEN {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+/* Heading */
+#HOME-KITCHEN h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 10%;
+}
+
+/* Carousel box */
+#HOME-KITCHEN .carousel {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Center images */
+#HOME-KITCHEN .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Carousel images */
+#HOME-KITCHEN .carousel img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+#HOME-KITCHEN .container {
+    display: flex;
+    justify-content: center;
+    padding-right:1px;
+}
+
+/* Page Background */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Login Card */
+.login-card {
+    border-radius: 14px;
+}
+
+/* AJIO Button Style */
+.btn-ajio {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-ajio:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Input Styling (optional enhancement) */
+.form-control {
+    border-radius: 8px;
+}
+
+/* Link Hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Page Background */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Register Card */
+.register-card {
+    border-radius: 14px;
+}
+
+/* AJIO Button */
+.btn-ajio {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-ajio:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Input Styling */
+.form-control {
+    border-radius: 8px;
+}
+
+/* Link Hover */
+a:hover {
+    text-decoration: underline;
+}
+
+#Footer{
+    background-color: skyblue;
+}
+.fa-brands{
+    font-size:30px;
+    color:black;
+}
+.fa-brands:hover{
+    scale:1.2;
+}

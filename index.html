@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJIO Shopping Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://exchange4media.gumlet.io/news-photo/136067-main1.jpg">
+    <script src="https://kit.fontawesome.com/05499c0326.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="https://exchange4media.gumlet.io/news-photo/136067-main1.jpg" width="70" alt="AJIO">
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left Menu -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- MEN -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">MEN</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#western">Western Wear</a></li>
+                            <li><a class="dropdown-item" href="#ethnic">Ethnic Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Summer Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Footwear</a></li>
+                            <li><a class="dropdown-item" href="#">Jewellery</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- WOMEN -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">WOMEN</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Western Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Traditional Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Summer Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Footwear</a></li>
+                            <li><a class="dropdown-item" href="#">Jewellery</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- KIDS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">KIDS</a>
+                        <div class="dropdown-menu p-4" style="width: 450px;">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6 class="fw-bold">BOYS</h6>
+                                    <a class="dropdown-item" href="#">T-Shirts</a>
+                                    <a class="dropdown-item" href="#">Shirts</a>
+                                    <a class="dropdown-item" href="#">Jeans</a>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="fw-bold">GIRLS</h6>
+                                    <a class="dropdown-item" href="#">Dresses</a>
+                                    <a class="dropdown-item" href="#">Tops</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- HOME & KITCHEN -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HOME & KITCHEN</a>
+                        <div class="dropdown-menu p-4" style="width: 500px;">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6 class="fw-bold">Bed Linen</h6>
+                                    <a class="dropdown-item" href="#">Bedsheets</a>
+                                    <a class="dropdown-item" href="#">Blankets</a>
+                                    <a class="dropdown-item" href="#">Pillow Covers</a>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="fw-bold">Home Decor</h6>
+                                    <a class="dropdown-item" href="#">Wall Decor</a>
+                                    <a class="dropdown-item" href="#">Photo Frames</a>
+                                    <a class="dropdown-item" href="#">Kitchen Organisers</a>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="fw-bold">Kitchen Organisers</h6>
+                                    <a class="dropdown-item" href="#">Kitchen Tools</a>
+                                    <a class="dropdown-item" href="#">Kitchen Aprons</a>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="fw-bold">Festive Gifts</h6>
+                                    <a class="dropdown-item" href="#">Fengshui</a>
+                                    <a class="dropdown-item" href="#">Indoor Fountains</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <!-- Search -->
+                <form class="d-flex me-3">
+                    <input class="form-control" type="search" placeholder="Search Products">
+                    <button class="btn btn-outline-success ms-2" type="submit">Search</button>
+                </form>
+
+                <!-- Right Side -->
+                <ul class="navbar-nav d-flex flex-row align-items-center gap-3">
+
+                    <!-- Login Button -->
+                    <li class="nav-item">
+                        <a href="register.html" class="btn btn-success">
+                            Login
+                        </a>
+                    </li>
+
+                    <!-- Wishlist -->
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">
+                            <i class="bi bi-heart fs-5"></i>
+                        </a>
+                    </li>
+
+                    <!-- Cart -->
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">
+                            <i class="bi bi-bag fs-5"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+
+
+    <!-- MEN -->
+    <section id="MEN">
+        <h1 class="text-center mt-3 mb-3">MEN</h1>
+        <div class="container">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
+                <!-- carousel -->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.shutterstock.com/image-photo/stylish-man-wearing-sunglasses-white-260nw-1562565562.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://t4.ftcdn.net/jpg/02/50/98/27/360_F_250982749_NPfJn7ZpNXrC10nWhpacglwDj4CKqnD3.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.shutterstock.com/image-photo/handsome-male-model-checked-suit-260nw-1907885587.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <h2>Western Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div id="western" class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://i.pinimg.com/236x/81/0e/24/810e245d80c36ea600259691d6d859f4.jpg" alt="">
+            <h4>Formal</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://i.pinimg.com/736x/4a/b0/c3/4ab0c3e1acd756069ee67f01bcda2605.jpg" alt="">
+            <h4>Sweatshirt</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://image.hm.com/assets/hm/e9/63/e9630037e2f0366d2d342ce129417c333e63e039.jpg?imwidth=2160"
+                alt="">
+            <h4>Hoodie</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://image.cdn.shpy.in/334709/SKU-0976_3-1727255836837.jpg?width=600&format=webp" alt="">
+            <h4>half-sleeves</h4>
+            <p>₹999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://img.freepik.com/free-photo/young-handsome-man-posing-quarry_1303-28636.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="">
+            <h4>T-shirt</h4>
+            <p>₹999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Ethnic Wear</h2>
+    <div id="ethnic" class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVGr93pJxWdAX6tIYrSi28zy9C3Xp7GAK_3lCGDZwW8qIiMkoAVShrSX5TVrUDpohL-Lg&usqp=CAU"
+                alt="">
+            <h4>Embroidered</h4>
+            <p>₹3,099</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDya05sxMVJiK8FiSSGlCNT2Iz0zg02aV_rAFF4UnzzncATsL2HImEGb9Eg6vXzx_fFeg&usqp=CAU"
+                alt="">
+            <h4>kurta</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.textileexport.in/media/mceu_35075174721709551671826.jpg" alt="">
+            <h4>Indo western</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://manyavar.scene7.com/is/image/manyavar/Manyavar2153_05-12-2022-07-11:650x900?&dpr=on,2"
+                alt="">
+            <h4>Brocade</h4>
+            <p>4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWgEa48BGWfbT9eaAJ5jA5vijCefBWip1y6rQYftIST-AdgKpgvmpJ6m_NM6Tsz86sIwA&usqp=CAU"
+                alt="">
+            <h4>Sherwani</h4>
+            <p>5,909</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Summer Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://static.cilory.com/723198-thickbox_default/maroon-pure-cotton-polo-t-shirt.jpg.webp"
+                alt="">
+            <h4>Polo Shirts</h4>
+            <p>₹499</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://static.cilory.com/737677-thickbox_default/mens-darkness-graphic-printed-oversized-cotton-t-shirt.jpg.webp"
+                alt="">
+            <h4>Graphic-Tees</h4>
+            <p>₹799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.andamen.com/cdn/shop/files/01_ab57c025-5ffc-494a-8146-1403d551da86.jpg?v=1766407051"
+                alt="">
+            <h4>Linen Shirts</h4>
+            <p>₹999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpuapzGM9M2-cI-7Tk6ObB7mdsHZ6d2N0HhQ&s"
+                alt="">
+            <h4>Chinos</h4>
+            <p>₹899</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://img.freepik.com/premium-photo/png-man-mockup-wearing-color-shorts-summer-fashion-shoot_53876-1041476.jpg?w=360"
+                alt="">
+            <h4>Shorts</h4>
+            <p>₹599</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Foot Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://fausto.in/cdn/shop/files/FST_FOSMF-2091_BROWN-MODEL1_e0b70085-dedb-4717-9708-e53dddeb95e5_1080x.jpg?v=1768043725"
+                alt="">
+            <h4>Oxfords</h4>
+            <p>1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.silverstreetlondon.co.uk/cdn/shop/files/BOURNEBLACK_7fecc1e3-4659-4ba5-8ae2-939c7e450c3e_grande.jpg?v=1763638318"
+                alt="">
+            <h4>Monk Straps</h4>
+            <p>₹2,599</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/g/25/a24fde52-73bf-468e-965d-c12c9ae7e9fe.jpg"
+                alt="">
+            <h4>Sneakers</h4>
+            <p>₹1009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/5123WhJDQAL.jpg" alt="">
+            <h4>Slides</h4>
+            <p>₹899</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://baccabucci.com/cdn/shop/products/01_2_d6bc0d6d-6a7e-495f-8a10-af549272e31a.jpg?v=1634900689&width=1200"
+                alt="">
+            <h4>Snow Boots</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Jewellery</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.alicemadethis.com/cdn/shop/products/5_Alice-Made-This_designer-chain_main-19.jpg?v=1682550020"
+                alt="">
+            <h4>Chain</h4>
+            <p>1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://kinclimg1.bluestone.com/f_jpg,c_scale,w_828,q_80,b_rgb:f0f0f0/giproduct/BIDG0360R15_YAA18DIG4XXXXXXXX_ABCD00-PICS-00001-1024-85183.png"
+                alt="">
+            <h4>Ring</h4>
+            <p>₹2,599</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfYY6KPiFDKwQ5pNJHA5ScAncY05HikxDHFw&s"
+                alt="">
+            <h4>Bracelet</h4>
+            <p>₹4,500</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://images-cdn.ubuy.co.in/67e6749b9610d0a8560cf048-poedagar-men-watch-luxury-business.jpg"
+                alt="">
+            <h4>Watch</h4>
+            <p>₹6,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://priyaasi.com/cdn/shop/products/BD-EAR-40004.M_1800x1800.jpg?v=1669032465" alt="">
+            <h4>Ear piercing</h4>
+            <p>₹399</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <!-- WOMEN -->
+    <section id="WOMEN">
+        <h1 class="text-center mt-3 mb-3">WOMEN</h1>
+        <div class="container">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
+                <!-- carousel -->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-photo/fashion-girls_1157-5472.jpg?semt=ais_hybrid&w=740&q=80"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D12AQHxNvvRFv02YQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1691300118009?e=2147483647&v=beta&t=h3X6VuCLpcDHbwtmAw6icNEjGbpTFUPwErJQAe0PsOA"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://miro.medium.com/1*ny_g-iXTexg6XMH2h3ts2A.jpeg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2>Western Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.lavanyathelabel.com/cdn/shop/files/1_b92e1b57-fca7-4d01-9a81-284b4b69234b_400x.jpg?v=1755064137"
+                alt="">
+            <h4>Indo Western</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://i.pinimg.com/736x/ec/d3/6f/ecd36f6064bed2955175c37eec8adb4b.jpg" alt="">
+            <h4>Bohemian</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://shopgetitgirl.com/cdn/shop/files/DSC02391.jpg?v=1748575348" alt="">
+            <h4>Rodeo Ready</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://images.squarespace-cdn.com/content/v1/55cacc35e4b06fab5e0cf719/1612240413057-AHEUT5OSMH1L5W083WAP/IMG_6688.jpg"
+                alt="">
+            <h4>Desert Dusk</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://i.pinimg.com/originals/d8/d6/eb/d8d6eb229838d240a122867e31a3b14f.jpg" alt="">
+            <h4>Vintage Western</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Traditional Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://ilovesarees.com/cdn/shop/files/Himani-Rose-Gold-Tissue-Cotton-Saree1_11d6a602-df0c-47ca-babc-13ac03742d0f.webp?v=1720699978&width=1445"
+                alt="">
+            <h4>Saree</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/29/g4dSdXmQ_b373664db2f340eb880cd60b9423025d.jpg"
+                alt="">
+            <h4>Salwar khameez</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAsLL-eLLAdmr_QY_No0LH21vSvJ4NcwA8w&s"
+                alt="">
+            <h4>Lehenga cholis</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://urbanstree.com/cdn/shop/files/Diwali23-7874.jpg?v=1756462281" alt="">
+            <h4>Anarkali</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://shopsanyagulati.com/cdn/shop/files/Untitleddesign_73.jpg?v=1695035365" alt="">
+            <h4>Sharara</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Summer Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://freakins.com/cdn/shop/files/DSC08161.jpg?v=1750066646" alt="">
+            <h4>Mini Skirt</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/5/656f51fORN0158_0.jpg?rnd=20200526195200&tr=w-512"
+                alt="">
+            <h4>Printed Dress</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://chidiyaa.com/cdn/shop/files/IMG_4335.jpg?v=1746014583" alt="">
+            <h4>Breezy Skirt</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://fail.co.in/cdn/shop/files/36_69da0185-9deb-4e55-a1a6-a409250b29ed.png?v=1729264413"
+                alt="">
+            <h4>One-shoulder Top</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvS9xqUqSFZSA9xD0B3AEP3iQM7G5eolCOeKZGuGYozCa-zsilbiKWf_e7u7Vo_4tfw0s&usqp=CAU"
+                alt="">
+            <h4>Co-ord set </h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Foot Wear</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240902/2x8S/66d53f146f60443f31475c69/-473Wx593H-700351931-red-MODEL.jpg"
+                alt="">
+            <h4>Heels</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://stylestryproductionwls47sou4z.cdn.e2enetworks.net/images/products/medium/6753df3e2ba910ef5d2572508b740526a3e232bb.webp"
+                alt="">
+            <h4>Boots</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://img.kwcdn.com/product/fancy/070cf3fe-5ae9-4ac7-bd19-ae9eb298e7c5.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                alt="">
+            <h4>Sneakers</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.tresmode.com/cdn/shop/files/the-sabe-beige-women-s-dress-flats-tresmode-tresmode-1.jpg?v=1755688860"
+                alt="">
+            <h4>Flats</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://i.etsystatic.com/13278136/r/il/93e687/2419313669/il_570xN.2419313669_jrs4.jpg" alt="">
+            <h4>Sandals</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Jewellery</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.minarjewellers.com/cdn/shop/articles/22ct-gold-ripple-chain-with-lobster-clasp-C-2803_1_1500x.jpg?v=1732028590"
+                alt="">
+            <h4>Chain</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpe_qVmFLPhLuQdp3bgiVE8uG5a5ZTeyV0xA&s"
+                alt="">
+            <h4>Bangles</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://vembley.com/cdn/shop/products/20220913_123333694_iOS_1800x1800.jpg?v=1672567437" alt="">
+            <h4>Earrings</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/61+BN4lVkWL._AC_UY1100_.jpg" alt="">
+            <h4>Bracelet</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.lavieworld.com/cdn/shop/files/WTPG1370195M3_8.jpg?v=1756803261" alt="">
+            <h4>Watch</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <!-- KIDS -->
+    <section id="KIDS">
+        <h1 class="text-center mt-3 mb-3">KIDS</h1>
+        <div class="container">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
+                <!-- carousel -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.shutterstock.com/image-photo/cute-little-friends-jeans-near-260nw-2617634735.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.shutterstock.com/image-photo/portrait-little-boys-friends-posing-260nw-2451117117.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.shutterstock.com/image-photo/portrait-cute-little-kids-boy-260nw-1244386855.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+    </section>
+    <h1 class="text-center mt-3 mb-3">Boys</h1>
+    <h2>T-shirts</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.jackjones.in/cdn/shop/files/900689103_g1.jpg?v=1745341606&width=1080" alt="">
+            <h4>White</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/81FiOTzadML._AC_UY1100_.jpg" alt="">
+            <h4>Black</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjO4jL3BgkwNwgfaDpARbhTvzpbbvSTFPwJQ&s"
+                alt="">
+            <h4>Grey</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.montecarlo.in/cdn/shop/products/524065024-1-30_5.jpg?v=1710495507" alt="">
+            <h4>Lime</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/4d7438010aeb4512b58fbb459707bbbb_9366/adidas-minecraft-loose-tee.jpg"
+                alt="">
+            <h4>Green</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Shirts</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://5.imimg.com/data5/WR/IN/MY-20436704/kids-plain-shirt.jpg" alt="">
+            <h4>White</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://ramrajcotton.in/cdn/shop/files/02_95aa7e92-a3b3-4b32-a4c7-084c528f171f_1024x.jpg?v=1696241470"
+                alt="">
+            <h4>Red</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://img.tatacliq.com/images/i9/437Wx649H/MP000000015994969_437Wx649H_202301072211361.jpeg"
+                alt="">
+            <h4>Yellow</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240819/b8MJ/66c32fd56f60443f3113714b/jack_%26_jones_maroon_boys_regular_fit_shirt_with_spread_collar.jpg"
+                alt="">
+            <h4>Maroon</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/4d7438010aeb4512b58fbb459707bbbb_9366/adidas-minecraft-loose-tee.jpg"
+                alt="">
+            <h4>Green</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Jeans</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.mumkins.in/cdn/shop/products/boys-jeans-bl062457c-lightblue-4_1800x1800.jpg?v=1757575253"
+                alt="">
+            <h4>Denim</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://5.imimg.com/data5/CK/AQ/MY-52988571/kids-stylish-jeans-500x500.jpg" alt="">
+            <h4>Faded</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/71HwIm4UXoL._AC_UY1100_.jpg" alt="">
+            <h4>olive</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.mumkins.in/cdn/shop/products/60e7d2be19f65.jpg?v=1757575080" alt="">
+            <h4>Black</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/61K53NJaNcL._AC_UY1100_.jpg" alt="">
+            <h4>ice-blue</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h1 class="text-center mt-3 mb-3">Girls</h1>
+    <h2>Dresses</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://peekaabookids.com/cdn/shop/files/JBL09641.png?v=1739291824&width=533" alt="">
+            <h4>Pink</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_S_EUzKXVC3Ezyi0x8jlRaVmq8D6dcA2_Q&s"
+                alt="">
+            <h4>Black</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNIPxoQ6i2ls2LEEqNYXpCzhjhwCQcbweOw&s"
+                alt="">
+            <h4>Mixed</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.fayonkids.com/cdn/shop/files/manufactured-by-fayon-kids-noida-u-p-yellow-neoprene-dress-for-girls-40946022678784.jpg?v=1756713977&width=533"
+                alt="">
+            <h4>Yellow</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTei2RO1l_NyzZawepX6ms8oa-GJVSM4fyufw&s"
+                alt="">
+            <h4>Biscuit</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Tops</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/41LwmQP2P4L._AC_UY1100_.jpg" alt="">
+            <h4>Black</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/61X7eE0o3WL._AC_UY1100_.jpg" alt="">
+            <h4>White</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://thetribekids.com/cdn/shop/files/fefa-flutter-sleeveless-embroided-cotton-girls-top-light-blue-307780_1024x1024.jpg?v=1735213086"
+                alt="">
+            <h4>sky-blue</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mfymy_uzbWlL1lUyxZo1ZSwyv8g-pIjC7w&s"
+                alt="">
+            <h4>Grey</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://i.pinimg.com/736x/59/80/ad/5980adfd1b800f3cb9acbf8e77fe3d51.jpg" alt="">
+            <h4>Pale Green</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <!-- HOME-KITCHEN -->
+    <section id="HOME-KITCHEN">
+        <h1 class="text-center mt-3 mb-3">HOME-KITCHEN</h1>
+        <div class="container">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
+                <!-- carousel -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://media.designcafe.com/wp-content/uploads/2021/05/26182848/indian-style-kitchen-interior-designs-for-your-home.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.architecturaldigest.in/photos/60083da0a8f83977417043d0/16:9/w_2560%2Cc_limit/Kitchen-problems-home-decor-interior-design-1366x768.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.designcafe.com/wp-content/uploads/2020/06/09015014/kitchen-decor-and-decorating-ideas-for-your-home.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    </section>
+    <h1 class="text-center mt-3 mb-3">Bed Linen</h1>
+    <h2>Bedsheets</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/41KR7qzOpVL._AC_SR290,290_.jpg" alt="">
+            <h4>Blue</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets.ajio.com/medias/sys_master/root1/20251114/oCXj/6916bf0788d6d62ff8e7d1ca/-473Wx593H-466186354-brown-MODEL.jpg"
+                alt="">
+            <h4>Lavender</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6caB4cczkzvMyDcTbfdTEARE77KAxvjZBVA&s"
+                alt="">
+            <h4>White-Blue</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRQxLIV1gLtkfunxPF-zUq-TgJo9DnHJGKbX0-SDNGgQUIYWxoBzH7NCu4W0gbIWkeajh2aXJq4P-uikcz6NCotJvgT4P8_OT3Inoe82SYttBfqs-crZP2rg7MV&usqp=CAc"
+                alt="">
+            <h4>Maroon</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.jiomart.com/images/product/original/rvyv93vsfx/purav-light-king-size-double-bed-bedsheet-90-x100-with-2-pillow-covers-glace-cotton-bedsheets-grey-product-images-orvyv93vsfx-p600270200-0-202304071729.jpg?im=Resize=(1000,1000)"
+                alt="">
+            <h4>Black</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Blankets</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTcmAWF6DzyWi__UW9PzXNyPSQsnk53nO66rmw1a1WH1Tn2ebN3tu0q8RBA53AThxVXtJItrR_opoCRlxA023XArzwB7_JqzbaP8SpRO1aIgEfKpAMFRcE&usqp=CAc"
+                alt="">
+            <h4>Olive</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR5gqIzGi31kJQcJ7Ya-lqwj7ZqCBGG9896D_ApuA_NO195ohpzZ-WEsUbRcC2OPt6YvJ-ETCqYy0sBEfZe8iF9ODIA1SxaOs7npIkXDgAJ_ujZaqRaTmHWYjQZ5Y8AuwDd&usqp=CAc"
+                alt="">
+            <h4>Grey</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSW9Yt7bkVmf-fhEngCWIDD2PpdVohZxT30Jl8us97epW2Hp5vgHSfZ2Bre25bgVyxadPXYF469c838pzO6xDk0v_nOTx7aqY41jz1FIaoisy7H51JEduIv6Z2ebIFKdLty6Gak2g&usqp=CAc"
+                alt="">
+            <h4>Blue</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrBStAeS3BHFeppGNl8hC1ams0zL_u8TXqV0eNIbhTigu23GudOYst18-8lJfu_fuhoj9Ai2tbQGmWUNMAAD983EP2fQJUBtQI8XW2WOX71i38cEcx8IQdXepg&usqp=CAc"
+                alt="">
+            <h4>Black</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS5p_eFV_hHf9dSnDCtJ93TnlQX2SEzIT5zCpbRiKhUL2tTwxJjPi6Zl6115K8b1xaKaZhGGtsndHLMJOrQpH-mDRQ6NOkH4wYvuuoWVW-7wUi8Pi3Glme72dM&usqp=CAc"
+                alt="">
+            <h4>Baby-Pink</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Pillow covers</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWWojUsi3oEe6lHID1YSta7tS_xxj2fe1jA&s"
+                alt="">
+            <h4>Satin</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLqQjsg7wIL77z0EtYua04yQiuXfvpvOl0qg&s"
+                alt="">
+            <h4>Bohemian</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://tiimg.tistatic.com/fp/1/007/260/hand-embroidered-sari-patchwork-pillow-cover-292.jpg"
+                alt="">
+            <h4>Embroidered</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://nestasia.in/cdn/shop/files/CouchCushionCover_1.jpg?v=1704518996" alt="">
+            <h4>Floral</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://vliving.in/cdn/shop/files/GLR07138.jpg?v=1693587220" alt="">
+            <h4>Plum Dominoterie</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h1 class="text-center mt-3 mb-3">Home Decor</h1>
+    <h2>Wall Decor</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRltDoKoaUn1Rzs5SlZeSpyz8G6cHhw-4hfA_c__8raKQ1BiKhALF-jn3ZGHm-JSvzopEmdxOKw9rgZrpEWQq_UFOiV9eaLzm1Z6PCjOTIHP7VEuvJxw2_C&usqp=CAc"
+                alt="">
+            <h4>Wooden mounted set</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4Uw2zMjUFiUPpT8L5xUoLJWdHanG-HdxO0bWlzmKCFSH-UYQR3bMBB-94MHKzaKSl_hUTaL6IVXzAavmU8qFmUoh5IQV6ZtLeNLcRco_0uCDAJaFqFBrR4nQ&usqp=CAc"
+                alt="">
+            <h4>Metal zora tree</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTgXH1SQ0ldZfZLjq7ekycnKMne0G_5kczFxUXep974EHtYia6oxNob9mIdBqVhEuM94aut4GlAmlK2QCEgP1ORz8J9rRV7k1zGEsy-u68TtcaMUdS4GUfKOKSihRRlEPlEQNf4LA&usqp=CAc"
+                alt="">
+            <h4>Butterfly Art</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7koIs6I-rGHnzj5NzfwCa9NlHrKNqhlDgS0B5SF_KpUpD19br-UTPJ8Uch2F9Ohn-kUu_yGGbE1AH-E3ZuOQDe5BJPoz2C1k2uwOXiAc&usqp=CAc"
+                alt="">
+            <h4>Leaf Wall Decor</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCh08zzvrAbdmPIk6_b2yRas0dqk7XrmjByg&s"
+                alt="">
+            <h4>Sculptures</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Photo Frames</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://img.freepik.com/premium-psd/rustic-wooden-frame-adorned-with-vibrant-yellow-forsythia-blossoms-spring-floral-arrangement-nature-photography-botanical-decor_632498-31679.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="">
+            <!-- <h4></h4> -->
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlg8Nt_lThP3bFMVYlqLsv4cxUAKmhHkWGlCfuxVO_UU-lvuWDrWlviw1EI46ibVzPDHo&usqp=CAU"
+                alt="">
+            <!-- <h4></h4> -->
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3JmRYexYC72iX1XX6oDRUOQLurF2MfE_-nzwMnBF2YdD-z8Upr7DxTkk3c88mK7dXBw&usqp=CAU"
+                alt="">
+            <!-- <h4></h4> -->
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrwnzHaJDcQr5dBxMFFwu5kV7kNQFKPp3lWYvXuuKceAxkrAEyEAHavZWlJcRzJcOA5Mc&usqp=CAU"
+                alt="">
+            <!-- <h4></h4> -->
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1D1_XfRrKrPyZG9y7EEk-OmMJ8yDAtkcAB72DKMG_VYwTjKTDgTB0jCXg0UxlEdD85o&usqp=CAU"
+                alt="">
+            <!-- <h4></h4> -->
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h1 class="text-center mt-3 mb-3">Kitchen Organisers</h1>
+    <h2>Kitchen Tools</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvTsK33LEVoUKlZAiDxkcWtw3I0258YRTLg&s"
+                alt="">
+            <h4>knives</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz3Qo6Unyp-GFuJ5q_af9DE21SC1ewQU5Bg&s"
+                alt="">
+            <h4>cutting board</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.rasoishop.com/cdn/shop/products/0429512022254_1.jpg?v=1671254997" alt="">
+            <h4>Peeler</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRcX8jvY1gzlt7ZqhPoOwZEhTrWMKO1G4tQ&s"
+                alt="">
+            <h4>Salad spinner</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://images-cdn.ubuy.co.in/6946989a1cacbfcae5018e0e-alltop-lemon-zester-hand-held-stainless.jpg"
+                alt="">
+            <h4>Zester</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Kitchen Aprons</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://m.media-amazon.com/images/I/512Zn1C3FjL._AC_UY1100_.jpg" alt="">
+            <h4>Bib</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/440577491/SA/CZ/GB/8834646/half-apron-500x500.jpg"
+                alt="">
+            <h4>Waist</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://ub-media-storage.s3.ap-south-1.amazonaws.com/products/original/red-black-bistro-apron-for-chef_65973.jpg"
+                alt="">
+            <h4>Bistre</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/41AnQm1zWHL._AC_UL210_SR210,210_.jpg" alt="">
+            <h4>waterproof</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://www.alexandra.co.uk/media/catalog/product/w/1/w112bk_01_rf1ll9pjdpreviyn.jpg" alt="">
+            <h4>Tabard</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h1 class="text-center mt-3 mb-3">Festive Gifts</h1>
+    <h2>Fengshui</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250520/g03C/682c86f97a6cd4182f40ef5d/-473Wx593H-462461360-white-MODEL.jpg"
+                alt="">
+            <h4>ceramic cow</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250520/ygLY/682c842555340d4b4f4497a3/-473Wx593H-462853586-green-MODEL.jpg"
+                alt="">
+            <h4>ceramic Frog</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20230623/0TU3/6494d33ed55b7d0c63a73e90/-473Wx593H-464440519-white-MODEL.jpg"
+                alt="">
+            <h4>Running Horses</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20260109/Lzi4/69613db67ef0c7385c5b20b4/-473Wx593H-702741919-multi-MODEL.jpg"
+                alt="">
+            <h4>Mini Crystal Globe</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20260109/Mgar/69613ade7ef0c7385c5ad1cf/-473Wx593H-702742024-multi-MODEL.jpg"
+                alt="">
+            <h4>Budha Head Statue</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <h2>Indoor Fountains</h2>
+    <div class="grid">
+        <!-- product-1 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2025/8/533848508/HZ/EP/TP/32050364/whatsapp-image-2025-08-05-at-3-59-49-pm-500x500.jpeg"
+                alt="">
+            <h4>Floor</h4>
+            <p>₹1,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-2 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://images-cdn.ubuy.qa/634f64b1330fac7aef598324-gdrasuya10-tabletop-fountain-waterfall.jpg"
+                alt="">
+            <h4>TableTop</h4>
+            <p>₹2,799</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-3 -->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/10/BC/UV/NP/99531263/outdoor-wall-water-fountain.jpg"
+                alt="">
+            <h4>Wall</h4>
+            <p>₹2,009</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-4-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://5.imimg.com/data5/EC/AE/PH/ANDROID-4258502/product-jpeg.jpg" alt="">
+            <h4>Pool</h4>
+            <p>₹3,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+        <!-- product-5-->
+        <div class="card">
+            <label class="heart-wrapper">
+                <input type="checkbox" class="heart-checkbox">
+                <span class="heart-icon">
+                </span>
+            </label>
+            <img src="https://fountainful.com/cdn/shop/files/MS-3305-min.jpg?v=1705425202" alt="">
+            <h4>Conical</h4>
+            <p>₹4,999</p>
+            <button class="btn">Add to Bag</button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <section id="Footer" class="mt-5 p-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Ajio</h3>
+                    <p>Terms&Conditions</p>
+                    <p>We respect your privacy</p>
+                    <p>Fees&Payments</p>
+                    <p>Returns&Refund policies</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Help</h3>
+                    <p>Track your order</p>
+                    <p>Fequently asked questions</p>
+                    <p>Cancellation</p>
+                    <p>Customer care</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Shop by</h3>
+                    <p>All</p>
+                    <p>Men</p>
+                    <p>Women</p>
+                    <p>Home&Kitchen</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p><i class="fa-brands fa-linkedin"></i></p>
+                    <p><i class="fa-brands fa-github"></i></p>
+                    <p><i class="fa-brands fa-square-instagram"></i></p>
+                    <p><i class="fa-brands fa-square-whatsapp"></i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
